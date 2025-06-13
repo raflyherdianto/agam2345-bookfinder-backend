@@ -16,7 +16,7 @@ async function recomendBook(query, token) {
   
   const inputText = query;
   
-  const fetchResponse = await fetch('http://127.0.0.1:5000/books', {
+  const fetchResponse = await fetch('https://backend-bookfinder-fjczhdbsfrewecbq.southeastasia-01.azurewebsites.net/books', {
     headers: {
       'Authorization': `Bearer ${token}`
     }
